@@ -6,8 +6,22 @@ body {
 
 /* shared styles */
 .shared-title {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bold;
+}
+
+.primary-btn {
+    border: none;
+    padding: 24px 10px;
+    width: 196px;
+    background-color: #E02C6D;
+    color: white; 
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
 
@@ -18,11 +32,13 @@ body {
     align-items: center;
     margin-bottom: 50px;
 }
+
 .navbar ul {
     list-style: none;
     display: flex;
     gap: 34px;
 }
+
 .navbar li a {
     text-decoration: none;
     color: black;
@@ -30,13 +46,35 @@ body {
 
 /* hero section styles */
 .hero {
-    border: 1px dotted blue;
     width: 1188px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.hero .hero-content {
-    width: 582px;
+
+.hero-content {
+    max-inline-size: 582px;
+}
+
+.hero-title {
+    font-size: 3rem;
+}
+
+.hero-descritpion {
+    margin: 16px 0;
+}
+.prebook-btn {
+    border-radius: 41px;
+}
+.hero-images {
+    position: relative;
+}
+
+.img2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
 }
