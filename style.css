@@ -1,7 +1,6 @@
 body {
     width: 1440px;
     margin: 0 auto;
-    border: 1px dotted;
 }
 
 /* shared styles */
@@ -22,6 +21,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+.primary-btn:hover {
+    cursor: pointer;
 }
 
 
@@ -155,7 +157,6 @@ body {
 
 /* message section */
 .message {
-    border: 1px dotted;
     width: 1110px;
     margin: 0 auto 100px;
     display: flex;
@@ -169,6 +170,21 @@ body {
     font-size: 2.25rem;
     margin-bottom: 16px;
 }
+
+/* footer section style */
+footer {
+    padding: 50px 589px;
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
 
 
 
