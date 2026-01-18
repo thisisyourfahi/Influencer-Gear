@@ -12,7 +12,7 @@ body {
 
 .primary-btn {
     border: none;
-    padding: 24px 10px;
+    padding: 10px 24px;
     width: 196px;
     background-color: #E02C6D;
     color: white;
@@ -100,6 +100,7 @@ body {
     max-width: 1047px;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 100px;
 }
 .collection-title {
     text-align: center;
@@ -150,6 +151,23 @@ body {
     position: absolute;
     bottom: -50px;
     right: 0px;
+}
+
+/* message section */
+.message {
+    border: 1px dotted;
+    width: 1110px;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 96px;
+}
+.message img {
+    border-radius: 8px;
+}
+.message-title {
+    font-size: 2.25rem;
+    margin-bottom: 16px;
 }
 
 
