@@ -15,7 +15,7 @@ body {
     padding: 24px 10px;
     width: 196px;
     background-color: #E02C6D;
-    color: white; 
+    color: white;
     font-weight: bold;
 
     display: flex;
@@ -64,9 +64,11 @@ body {
 .hero-descritpion {
     margin: 16px 0;
 }
+
 .prebook-btn {
     border-radius: 41px;
 }
+
 .hero-images {
     position: relative;
 }
@@ -77,4 +79,63 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90%;
+}
+
+/* hero sponsors styles */
+.hero-sponsors {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 1110px;
+    margin: 69px auto 100px;
+    padding: 34px 61px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* responsive design for small device */
+@media screen and (max-width: 576px) {
+    body {
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        text-align-last: center;
+        gap: 10px;
+        padding: 0;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .hero {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .hero-images img{
+        width: 80%;
+
+    }
+    .hero button {
+        margin: 0 auto;
+    }
+    .hero-sponsors {
+        max-width: 275px;
+        border: none;
+        margin: 50px auto 50px;
+    }
+    .logo {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
 }
